@@ -1,4 +1,4 @@
-package com.nihui.maven;
+package com.nihui.maven.test;
 
 /**
  * @Classname AppName

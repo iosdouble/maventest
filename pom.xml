@@ -6,10 +6,25 @@
 
     <groupId>com.nihui.maven</groupId>
     <artifactId>maven-test</artifactId>
-    <version>1.0.2</version>
-    <packaging>jar</packaging>
+    <version>1.0.3</version>
+    <modules>
+        <module>test-pom</module>
+    </modules>
+    <packaging>pom</packaging>
 
+    <properties>
+        <app-user.version>1.0.1</app-user.version>
+    </properties>
 
+    <!--<dependencyManagement>-->
+        <!--<dependencies>-->
+            <!--<dependency>-->
+                <!--<groupId>com.nihui.maven</groupId>-->
+                <!--<artifactId>test-pom</artifactId>-->
+                <!--<version>${app-user.version}</version>-->
+            <!--</dependency>-->
+        <!--</dependencies>-->
+    <!--</dependencyManagement>-->
 
 
 </project>
